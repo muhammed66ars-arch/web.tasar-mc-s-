@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Muhammed Arslan</title>
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+
+      background:black;
+
+      color:white;
+
+      font-family:'Poppins',sans-serif;
+    }
+
+    /* ÜST MENÜ */
+
+    nav{
+
+      display:flex;
+
+      justify-content:space-between;
+
+      align-items:center;
+
+      padding:25px 10%;
+
+      background:#111;
+
+      border-bottom:1px solid #222;
+    }
+
+    nav h2{
+      color:orange;
+      font-size:30px;
+    }
+
+    nav ul{
+      display:flex;
+      gap:25px;
+      list-style:none;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:orange;
+    }
+
+    /* ANA ALAN */
+
+    .hero{
+
+      height:90vh;
+
+      display:flex;
+
+      justify-content:center;
+
+      align-items:center;
+
+      gap:80px;
+
+      padding:0 10%;
+
+      flex-wrap:wrap;
+    }
+
+    /* YAZI ALANI */
+
+    .text{
+      max-width:500px;
+    }
+
+    .text h1{
+
+      font-size:60px;
+
+      margin-bottom:20px;
+    }
+
+    .text h1 span{
+      color:orange;
+    }
+
+    .text h3{
+
+      font-size:25px;
+
+      color:#aaa;
+
+      margin-bottom:20px;
+    }
+
+    .text p{
+
+      line-height:1.8;
+
+      color:#d0d0d0;
+
+      margin-bottom:30px;
+    }
+
+    /* BUTONLAR */
+
+    .buttons{
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    button{
+
+      padding:14px 30px;
+
+      border:none;
+
+      border-radius:12px;
+
+      background:orange;
+
+      color:black;
+
+      font-size:16px;
+
+      font-weight:bold;
+
+      cursor:pointer;
+
+      transition:0.3s;
+    }
+
+    button:hover{
+
+      transform:scale(1.1);
+
+      background:white;
+    }
+
+    /* FOTOĞRAF */
+
+    .image img{
+
+      width:320px;
+
+      height:320px;
+
+      object-fit:cover;
+
+      border-radius:50%;
+
+      border:5px solid orange;
+
+      box-shadow:0 0 40px orange;
+    }
+
+    /* İLETİŞİM */
+
+    .contact{
+
+      text-align:center;
+
+      padding:80px 20px;
+
+      background:#111;
+    }
+
+    .contact h2{
+
+      font-size:40px;
+
+      margin-bottom:20px;
+
+      color:orange;
+    }
+
+    .contact p{
+
+      margin:10px 0;
+
+      color:#ccc;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- MENÜ -->
+
+  <nav>
+
+    <h2>Muhammed</h2>
+
+    <ul>
+
+      <li><a href="">Ana Sayfa</a></li>
+
+      <li><a href="">Hakkımda</a></li>
+
+      <li><a href="">Projeler</a></li>
+
+      <li><a href="">İletişim</a></li>
+
+    </ul>
+
+  </nav>
+
+  <!-- ANA BÖLÜM -->
+
+  <section class="hero">
+
+    <!-- YAZILAR -->
+
+    <div class="text">
+
+      <h1>
+        Merhaba, Ben <span>Muhammed</span>
+      </h1>
+
+      <h3>
+        Web Developer Adayı 🚀
+      </h3>
+
+      <p>
+
+        Web geliştirme ve video edit öğreniyorum.
+        Kendimi geliştirip internetten gelir elde etmeyi hedefliyorum.
+        HTML, CSS ve modern web tasarımları üzerinde çalışıyorum.
+
+      </p>
+
+      <!-- BUTONLAR -->
+
+      <div class="buttons">
+
+        <button>Instagram</button>
+
+        <button>İletişim</button>
+
+      </div>
+
+    </div>
+
+    <!-- FOTOĞRAF -->
+
+    <div class="image">
+
+      <!-- -->
+
+      <img src="profil.jpg">
+
+    </div>
+
+  </section>
+
+  <!-- İLETİŞİM -->
+
+  <section class="contact">
+
+    <h2>İletişim</h2>
+
+    <p>Email: muhammed66ars@gmail.com</p>
+
+    <p>Instagram: @arslan_muhammedanil</p>
+
+    <p>Telefon: 0506 035 18 66</p>
+
+  </section>
+
+</body>
+</html> 
