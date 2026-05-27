@@ -1,101 +1,77 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammed Arslan</title>
 
-
-    <meta charset="UTF-8">
-
-
-
-
-    <meta name="viewport" 
-    content="width=device-width,
-     initial-scale=1.0">
-
-
-
-     <title>Web Geliştirme ve Tasarım Sitesi</title>
-
-
-
-
-        <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Web Geliştirme ve Tasarım Sitesi</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Anasayfa</a></li>
-                <li><a href="#services">Hizmetler</a></li>
-                <li><a href="#portfolio">Portföy</a></li>
-                <li><a href="#contact">İletişim</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home">
-        <h2>Hoş Geldiniz!</h2>
-        <p>Web geliştirme ve tasarım alanında profesyonel hizmetler sunuyoruz. Modern ve kullanıcı dostu web siteleri oluşturmak için buradayız.</p>
-    </section>
+  <header>
+    <h1>Muhammed Arslan</h1>
 
-    <section id="services">
-        <h2>Hizmetlerimiz</h2>
-        <ul>
-            <li>Web Tasarımı</li>
-            <li>Web Geliştirme</li>
-            <li>E-ticaret Çözümleri</li>
-            <li>SEO Optimizasyonu</li>
-        </ul>
-    </section>
+    <p>Web geliştirme ve tasarlama yapıyorum.</p>
 
-    <section id="portfolio">
-        <h2>Portföyümüz</h2>
-        <p>Yaptığımız projelerden bazılarını görmek için aşağıdaki bağlantıya tıklayın.</p>
-        <a href="#">Portföyü Görüntüle</a>
-    </section>
+    <a href="about.html">
+      <button>Projelerim</button>
+    </a>
+  </header>
 
-    <section id="contact">
-        <h2>İletişim</h2>
-        <p>Bize ulaşmak için aşağıdaki formu doldurun:</p>
-        <form action="#" method="post">
-            <label for="name">Adınız:</label><br>
-            <input type="text" id="name" name="name"><br><br>
+</body>
+</html>
 
-            <label for="email">E-posta:</label><br>
-            <input type="email" id="email" name="email"><br><br>
+<style> 
+body {
+  margin: 0;
+  height: 100vh;
 
-            <label for="message">Mesajınız:</label><br>
-            <textarea id="message" name="message"></textarea><br><br>
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-            <input type="submit" value="Gönder">
-        </form>
-    </section>
+  background: #0f0f0f;
+  color: white;
 
-    <footer>
-      
-    CSS
+  font-family: Arial;
+}
 
+header {
+  text-align: center;
+}
 
+h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
 
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
+p {
+  font-size: 20px;
+  color: #bdbdbd;
+}
 
+button {
+  margin-top: 20px;
 
+  padding: 15px 35px;
 
-    section {
-        background: white;
-        padding: 20px;
-        margin: 20px;
-        border-radius: 10px;
-    }
+  border: none;
+  border-radius: 10px;
 
+  background: #2563eb;
+  color: white;
 
+  font-size: 16px;
 
-    h2 {
-        color: #333;
-    }
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+
+  transform: scale(1.05);
+} 
