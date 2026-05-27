@@ -1,160 +1,101 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Muhammed | Web Developer</title>
 
-<style>
 
-body{
-margin:0;
-font-family:Arial;
-background:#0d0d0d;
-color:white;
-}
+    <meta charset="UTF-8">
 
-header{
-padding:100px 20px;
-text-align:center;
-background:linear-gradient(135deg,#111,#222);
-}
 
-header h1{
-font-size:50px;
-margin-bottom:10px;
-}
 
-header p{
-color:#aaa;
-font-size:20px;
-}
 
-.btn{
-margin-top:20px;
-padding:12px 25px;
-border:none;
-background:orange;
-color:black;
-font-weight:bold;
-border-radius:10px;
-cursor:pointer;
-text-decoration:none;
-display:inline-block;
-}
+    <meta name="viewport" 
+    content="width=device-width,
+     initial-scale=1.0">
 
-section{
-max-width:900px;
-margin:auto;
-padding:60px 20px;
-}
 
-h2{
-color:orange;
-margin-bottom:20px;
-}
 
-.card{
-background:#1a1a1a;
-padding:20px;
-border-radius:10px;
-margin-bottom:15px;
-}
+     <title>Web Geliştirme ve Tasarım Sitesi</title>
 
-.flex{
-display:flex;
-gap:15px;
-flex-wrap:wrap;
-}
 
-.service{
-flex:1;
-min-width:200px;
-background:#161616;
-padding:20px;
-border-radius:10px;
-border:1px solid #222;
-}
 
-footer{
-text-align:center;
-padding:30px;
-color:#666;
-}
 
-a{
-color:orange;
-text-decoration:none;
-}
-
-.social a{
-display:block;
-margin:8px 0;
-}
-
-</style>
-
+        <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <header>
+        <h1>Web Geliştirme ve Tasarım Sitesi</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Anasayfa</a></li>
+                <li><a href="#services">Hizmetler</a></li>
+                <li><a href="#portfolio">Portföy</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-<h1>Muhammed Arslan</h1>
-<p>Web Developer | Modern ve Hızlı Siteler Yapıyorum</p>
+    <section id="home">
+        <h2>Hoş Geldiniz!</h2>
+        <p>Web geliştirme ve tasarım alanında profesyonel hizmetler sunuyoruz. Modern ve kullanıcı dostu web siteleri oluşturmak için buradayız.</p>
+    </section>
 
-<a class="btn" href="https://wa.me/905060351866" target="_blank">
-Bana WhatsApp’tan Ulaş
-</a>
+    <section id="services">
+        <h2>Hizmetlerimiz</h2>
+        <ul>
+            <li>Web Tasarımı</li>
+            <li>Web Geliştirme</li>
+            <li>E-ticaret Çözümleri</li>
+            <li>SEO Optimizasyonu</li>
+        </ul>
+    </section>
 
-</header>
+    <section id="portfolio">
+        <h2>Portföyümüz</h2>
+        <p>Yaptığımız projelerden bazılarını görmek için aşağıdaki bağlantıya tıklayın.</p>
+        <a href="#">Portföyü Görüntüle</a>
+    </section>
 
-<section>
-<h2>Hizmetler</h2>
+    <section id="contact">
+        <h2>İletişim</h2>
+        <p>Bize ulaşmak için aşağıdaki formu doldurun:</p>
+        <form action="#" method="post">
+            <label for="name">Adınız:</label><br>
+            <input type="text" id="name" name="name"><br><br>
 
-<div class="flex">
+            <label for="email">E-posta:</label><br>
+            <input type="email" id="email" name="email"><br><br>
 
-<div class="service">
-🌐 Web Site Tasarımı
-</div>
+            <label for="message">Mesajınız:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
 
-<div class="service">
-⚡ Landing Page
-</div>
+            <input type="submit" value="Gönder">
+        </form>
+    </section>
 
-<div class="service">
-💼 Portfolyo Siteleri
-</div>
+    <footer>
+      
+    CSS
 
-</div>
-</section>
 
-<section>
-<h2>Yaptığım İşler</h2>
 
-<div class="card">✔ Kişisel Portfolyo Sitesi</div>
-<div class="card">✔ Modern Landing Page</div>
-<div class="card">✔ Responsive Web Tasarımlar</div>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
 
-</section>
 
-<section>
-<h2>İletişim</h2>
 
-<div class="card social">
+    section {
+        background: white;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+    }
 
-📧 Email: <a href="mailto:muhammed66ars@gmail.com">muhammed66ars@gmail.com</a><br><br>
 
-📸 Instagram: <a href="https://instagram.com/arslan_muhammedanil" target="_blank">@arslan_muhammedanil</a><br><br>
 
-📱 WhatsApp: <a href="https://wa.me/905060351866" target="_blank">Mesaj Gönder</a>
-
-</div>
-
-</section>
-
-<footer>
-© 2026 Muhammed Arslan | Web Developer
-</footer>
-
-</body>
-</html>
+    h2 {
+        color: #333;
+    }
